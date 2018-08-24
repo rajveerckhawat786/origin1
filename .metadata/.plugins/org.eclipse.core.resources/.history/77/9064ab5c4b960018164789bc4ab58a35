@@ -1,0 +1,42 @@
+
+public class Employee1 {
+
+	private int age;
+	private String name;
+	
+	
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public void showEmployeeDetails()
+	{
+		System.out.println(name + "\t" + age);
+	}
+	
+	public static void main(String[] args) {
+		
+		Employee1 emp1 = new Employee1();
+		emp1.setName("crimeMasterGogo");
+		emp1.setAge(99);
+		emp1.showEmployeeDetails();
+		
+		Employee1 emp2 = new Employee1();
+		emp2.setName("PrimeMasterGogo");
+		emp2.setAge(101);
+		
+		System.out.println(emp2.getName()+"\t"+emp2.getAge());
+		
+		
+	}
+
+}

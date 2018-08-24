@@ -1,0 +1,15 @@
+package com.pojo;
+
+public class TestManager 
+{
+	public static void main(String[] args) 
+	{
+		Manager m;
+		m = new Manager();
+		
+		m.getMgrData();
+		m.getEmpData();
+		m.getPersonData();
+	}
+
+}

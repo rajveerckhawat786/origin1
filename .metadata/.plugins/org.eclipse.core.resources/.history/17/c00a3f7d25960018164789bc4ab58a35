@@ -1,0 +1,22 @@
+
+public class TestPerson {
+	
+	public static void main(String[] args) {
+		
+		Person p;
+		p = new Person();
+		//ref_name.nameof function
+		p.setValues();
+		
+		p.display();
+		
+		Person p1;
+		p1 = new Person();
+		
+		
+		p1.setValues(45, "tonyStark");
+		p1.display();
+		
+	}
+
+}

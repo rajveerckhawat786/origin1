@@ -1,0 +1,29 @@
+package com.pojo;
+import java.util.Scanner;
+
+import com.pojo.Employee;
+
+public class TestEmployee {
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		
+		Employee emp = new Employee();
+		emp.display();
+		
+		Scanner s = new Scanner(System.in);
+		
+		
+		
+		System.out.println("enter name : ");
+		String name = s.next();
+		
+		System.out.println("enter age : ");
+		int age = s.nextInt();
+		Employee emp1 = new Employee(123,34250,age,name);
+		emp1.display();
+
+	}
+
+}

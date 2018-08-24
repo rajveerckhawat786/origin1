@@ -1,0 +1,13 @@
+
+public class TestPerson {
+	
+	public static void main(String[] args) {
+		
+		Person p;
+		p = new Person();
+		//ref_name.nameof function
+		
+		p.display();
+	}
+
+}

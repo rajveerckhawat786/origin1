@@ -1,0 +1,31 @@
+package com.myabstract;
+
+import java.util.Scanner;
+
+import com.pojo.Employee;
+
+public class EmployeeIOimpl implements EmployeeIO {
+
+	@Override
+	public Employee readEmployee() {
+		// TODO Auto-generated method stub
+		
+		Scanner s = new Scanner(System.in);
+		System.out.println("enter empId : " );
+		
+		this.empId = s.nextInt();
+		
+		
+		System.out.println("enter empSalary : " );
+		
+		this.empSalary = s.nextDouble();
+		
+	}
+
+	@Override
+	public void writeEmployee(Employee employee) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

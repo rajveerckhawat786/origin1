@@ -1,0 +1,28 @@
+package com.pojo;
+
+import java.util.Scanner;
+
+public class Test 
+{
+
+	public static void main(String[] args)
+	
+	{
+		// TODO Auto-generated method stub
+		Student s1;
+		s1 = new Student();
+		
+		Scanner s = new Scanner(System.in);
+		System.out.println("enter name ");
+		s1.setName(s.next()); 
+		
+		System.out.println("enter roll number ");
+		s1.setRollNo(s.nextInt());
+		
+		
+		
+		
+
+	}
+
+}

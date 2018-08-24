@@ -1,0 +1,19 @@
+import java.util.Arrays;
+
+public class DemoArrayOperations {
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		
+		int [] numbers = {123,45,65,75,23,678,346,987};
+		Arrays.fill(numbers, 0);
+		
+		for(int num:numbers)
+		{
+			System.out.print(" "+num);
+		}
+
+	}
+
+}

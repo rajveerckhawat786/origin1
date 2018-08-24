@@ -1,0 +1,17 @@
+
+public class DemoArray1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int [] numbers;
+		numbers = new int[3];
+		numbers[0] = 0;
+		System.out.println(numbers);
+		numbers[0] = 100;
+		numbers[0] = 200;
+		numbers[0] = 100;
+		System.out.println(numbers);
+	}
+
+}

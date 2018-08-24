@@ -1,0 +1,45 @@
+package com.pojo;
+
+import java.util.Scanner;
+
+public class Manager extends Employee 
+{
+	private String dpt;
+	private int inct;
+	
+	public Manager() 
+	{
+		// TODO Auto-generated constructor stub
+		dpt = "nothing";
+		inct = 0;
+		
+	}
+
+	public String getDpt() {
+		return dpt;
+	}
+
+	public void setDpt(String dpt) {
+		this.dpt = dpt;
+	}
+
+	public int getInct() {
+		return inct;
+	}
+
+	public void setInct(int inct) {
+		this.inct = inct;
+	}
+	
+	public void getMgrData()
+	{
+		Scanner s = Scanner(System.in);
+		
+		
+		System.out.println("enter department : " );
+		
+		this.name = name;
+		
+	}
+	
+}

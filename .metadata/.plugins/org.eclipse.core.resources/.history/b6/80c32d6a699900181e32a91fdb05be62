@@ -1,0 +1,23 @@
+package com.myabstract;
+import java.util.Scanner;
+
+import com.pojo.Employee;
+
+public class DemoMyClass {
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		
+		EmployeeIO empIO = new EmployeeIO() 
+		{
+			public void writeEmployee(Employee employee)
+			{
+				
+			}
+
+		}
+
+	}
+
+}
